@@ -10,16 +10,22 @@ Tools for BCR SHM profiling. We provide a tool for analyzing somatic hypermutati
 6. Networkx(Only for get_networks program)
 
 ## List of Tools
-* __plot_mutation:__  
-This tool can identify high mutation sites and plot mutations.
-* __get_unique_seq:__  
-This tool can count sequence types and abundance。
-* __get_distance_matrix:__  
-This tool can get the distance (edit distance) between sequences. The distance matrix can be used alone, or it can be used with the fourth program to draw a BCR network diagram to see the mutation.  
+- __plot_mutation:__  
+  - Description: This tool can identify high mutation sites and plot mutations.  
+  - Usage: 
+- __get_unique_seq:__  
+  - Description: This tool can count sequence types and abundance.
+  - Usage: 
+- __get_distance_matrix:__  
+  - Description: This tool can get the distance (edit distance) between sequences. The distance matrix can be used alone, or it can be used with the fourth program to draw a BCR network diagram to see the mutation.  
 此工具可以得到序列间距离（编辑距离），距离矩阵可单独使用，也可配合第四个程序绘制BCR网络图，看突变情况。
-* __get_networks:__  
-This tool can get the distance network relationship between sequences. By default, the sequence network with distance 1 is drawn, and the parameter statistical distance network with sequence 2 can be adjusted.  
+  - Usage: 
+
+- __get_networks:__  
+  - Description:This tool can get the distance network relationship between sequences. By default, the sequence network with distance 1 is drawn, and the parameter statistical distance network with sequence 2 can be adjusted.  
 此工具可以得到序列间距离网络关系，默认绘制距离为1的序列网络，可以调整参数统计距离为2的序列网络。
+  - Usage: 
+
 
 
 
